@@ -145,7 +145,3 @@ The project includes a comprehensive test suite. To run the tests:
 ```bash
 pytest tests/
 ```
-
-## License
-
-[Insert your license here]
