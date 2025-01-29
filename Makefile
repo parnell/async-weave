@@ -1,5 +1,9 @@
+install::
+	uv sync --all-groups
+	uv pip install -e .
+
 test::
-	pytest -v tests
+	pytest tests
 
 build:: 
 	uv build
